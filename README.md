@@ -1,6 +1,6 @@
 # Budget Planning Application <!-- omit from toc -->
 
-## Table Of Contents <!-- omit from toc -->
+#### Table Of Contents <!-- omit from toc -->
 
 - [Description](#description)
 - [Features - Overview](#features---overview)
