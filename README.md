@@ -10,6 +10,7 @@
   - [Budgeting](#budgeting)
 - [Development Timeline](#development-timeline)
 - [Backend Architecture](#backend-architecture)
+  - [Database Schema](#database-schema)
   - [Flow Diagram](#flow-diagram)
   - [Sequence Diagram](#sequence-diagram)
   - [Project Structure](#project-structure)
@@ -55,6 +56,42 @@ This application is to primarily plan monthly budget.
 
 ---
 ## Backend Architecture
+
+### Database Schema
+
+**User roles**
+
+- id (primary key)
+- name
+- status
+- updated_date
+- created_date
+  
+**Users**
+
+- id (primary key)
+- username (unique key)
+- email (unique key)
+- first_name 
+- last_name
+- role_id (foreign key)
+- description
+- image
+- status
+- created_date
+- updated_date
+
+**Categories**
+
+- id (primary key)
+- name
+- parent_id
+- description
+- status
+- image
+- created_date
+- updated_date
+
 
 ### Flow Diagram
 
