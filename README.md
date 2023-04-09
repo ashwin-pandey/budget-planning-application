@@ -11,6 +11,7 @@
 - [Development Timeline](#development-timeline)
 - [Backend Architecture](#backend-architecture)
   - [Database Schema](#database-schema)
+  - [APIs](#apis)
   - [Flow Diagram](#flow-diagram)
   - [Sequence Diagram](#sequence-diagram)
   - [Project Structure](#project-structure)
@@ -94,6 +95,45 @@ This application is to primarily plan monthly budget.
 - created_date
 - updated_date
 
+**Income / Expenses**
+
+- id
+- value
+- description
+- category_id
+- created_date
+- updated_date
+
+### APIs
+
+**Categories (6)**
+1. GET - All categories
+2. GET - Category by id
+3. GET - All sub-categories by parent_id
+4. POST - Create a category
+5. PUT - Update a category
+6. DELETE - Delete a category
+
+**User roles (4)**
+1. GET - All user roles
+2. POST - Create a new role
+3. PUT - Update the role
+4. DELETE - Delete user role
+
+**Users (6)**
+1. GET - All users
+2. GET - A specific user
+3. POST - Create a new user (signup)
+4. PUT - Update an existing user
+5. DELETE - Delete an existing user
+6. POST - Login
+
+**Income / expenses (10)**
+1. GET - All income/expenses of a user
+2. GET - All income/expenses of a user based on date
+3. POST - Create new income/expense for a user
+4. PUT - Update an existing income/expense
+5. DELETE - Delete an exising income/expense
 
 ### Flow Diagram
 
