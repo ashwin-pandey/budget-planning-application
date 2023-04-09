@@ -59,7 +59,7 @@ This application is to primarily plan monthly budget.
 
 ### Database Schema
 
-![Alt text](https://github.com/ashwin-pandey/budget-planning-application/blob/master/backend/assets/images/schema.png)
+<kbd>![Alt text](https://github.com/ashwin-pandey/budget-planning-application/blob/master/backend/assets/images/schema.png)</kbd>
 
 **User roles**
 
