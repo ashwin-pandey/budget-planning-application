@@ -1,7 +1,12 @@
 const express = require('express');
+const cors = require('cors');
 const app = express();
 
+// use express.json() to allow request body
 app.use(express.json());
+
+// add cors
+app.use(cors());
 
 const port = process.env.PORT || 4000;
 app.listen(port, (error) => {
